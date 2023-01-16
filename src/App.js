@@ -74,7 +74,7 @@ function App() {
         </form>
 
         <Container className={classes.cardGrid} maxWidth="md">
-          <Grid container spacing={4}>
+          <Grid container spacing={4}  style={{justifyContent:"center"}}>
             {data.map((item) =>(
               <Grid item key={item.idMeal} xs={10} sm={6} md={4}>
                 <Card className={classes.cards}>

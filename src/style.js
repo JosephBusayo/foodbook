@@ -7,7 +7,9 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: '10px'
   },
   cardGrid:{
-    padding: '20px 0'
+    padding: '20px 0',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   cards: {
     height: '100%',
